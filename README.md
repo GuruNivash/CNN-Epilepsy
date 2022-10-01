@@ -17,6 +17,8 @@ accuracy of 95.09% is achieved.
 
 
 This repository contains four files: epilepsy2.m ----> Preprocessing of EEG Signals taken from Bonn Epilepsy dataset is done. Preprocessing step involves FIR Bandpass Filtering, DWT, Spectrogram generation
+
 features_extraction.m -----> Features such as GradCam and Occlusion Sensitivity are executed to understand what's happening inside the CNN in each layer
+
 transfer_learning_new.m ----> Building CNN Model AlexNet for classification: Seizure/Healthy
 
